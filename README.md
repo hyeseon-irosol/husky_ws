@@ -18,7 +18,7 @@ $ git clone https://github.com/hyeseon-irosol/husky_ws.git
 
   : RUN echo "export ROS_MASTER_URI=http://YOUR_IP_ADDRESS:11311" >> /home/${USERNAME}/.bashrc
 
-## How to use the packages from [Tinker-Twins](https://github.com/Tinker-Twins/Husky).
+## How to use the packages from [Tinker-Twins](https://github.com/Tinker-Twins/Husky)
 
 1. Keyboard Teleoperation:
     ```bash
