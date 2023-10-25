@@ -8,6 +8,16 @@ This workspace has Dockerfile for operating both the Husky robot and simulation 
 $ git clone https://github.com/hyeseon-irosol/husky_ws.git
 ```
 
+## Network setting
+
+* Please connect with the same wifi network Husky using which is "ASUS_ROUTER".
+
+* If you want to run the simulation Husky in Gazebo, the ROS_MASTER_URI should be another IP address, not Husky IP address.
+
+  In the Dockerfile, the address might be chagned from your own IP address. Please check it using "ifconfig"
+
+  : RUN echo "export ROS_MASTER_URI=http://YOUR_IP_ADDRESS:11311" >> /home/${USERNAME}/.bashrc
+
 ## How to use the packages from [Tinker-Twins](https://github.com/Tinker-Twins/Husky).
 
 1. Keyboard Teleoperation:
@@ -49,13 +59,3 @@ $ git clone https://github.com/hyeseon-irosol/husky_ws.git
     $ roslaunch husky_viz view_robot.launch
     $ roslaunch husky_navigation map_based_navigation.launch
     ```
-
-## Network setting
-
-* Please connect with the same wifi network Husky using which is "ASUS_ROUTER".
-
-* If you want to run the simulation Husky in Gazebo, the ROS_MASTER_URI should be another IP address, not Husky IP address.
-
-  In the Dockerfile, the address might be chagned from your own IP address. Please check it using "ifconfig"
-
-  : RUN echo "export ROS_MASTER_URI=http://YOUR_IP_ADDRESS:11311" >> /home/${USERNAME}/.bashrc
