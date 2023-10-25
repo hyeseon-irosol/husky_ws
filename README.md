@@ -5,7 +5,7 @@ This workspace for operating both the Husky robot and simulation in Gazebo.
 ## Installation
 
 ```bash
-$ git clone https://github.com/hyeseonmary/husky_ws.git
+$ git clone https://github.com/hyeseon-irosol/husky_ws.git
 ```
 
 ## How to use
