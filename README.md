@@ -4,7 +4,9 @@ This workspace for operating both the Husky robot and simulation in Gazebo.
 
 ## Installation
 
-git clone -b ns_comp https://github.com/robotian/tur_ws.git --recurse-submodules
+```bash
+$ git clone -b ns_comp https://github.com/robotian/tur_ws.git --recurse-submodules
+```
 
 ## How to use
 
