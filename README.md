@@ -1,6 +1,6 @@
 # HUSKY_WS 
 
-This workspace for operating both the Husky robot and simulation in Gazebo..
+This workspace for operating both the Husky robot and simulation in Gazebo.
 
 ## Installation
 
