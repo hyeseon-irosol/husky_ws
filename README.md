@@ -1,6 +1,6 @@
 # HUSKY_WS 
 
-This workspace for operating both the Husky robot and simulation in Gazebo.
+This workspace has Dockerfile for operating both the Husky robot and simulation in Gazebo.
 
 ## Installation
 
@@ -8,7 +8,7 @@ This workspace for operating both the Husky robot and simulation in Gazebo.
 $ git clone https://github.com/hyeseon-irosol/husky_ws.git
 ```
 
-## How to use
+## How to use the packages from [Tinker-Twins](https://github.com/Tinker-Twins/Husky).
 
 1. Keyboard Teleoperation:
     ```bash
